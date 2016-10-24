@@ -7,15 +7,15 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160825171210"/>
+		date="20161024140842"/>
 	<dependencies>
 		<module organisation="org.scalatest" name="scalatest_2.11">
-			<revision name="3.0.0" status="release" pubdate="20160801111153" resolver="jcenter" artresolver="jcenter" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+			<revision name="3.0.0" status="release" pubdate="20160801111153" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="5963" time="1271" location="C:\Users\alumno\.ivy2\cache\org.scalatest\scalatest_2.11\ivy-3.0.0.xml" searched="true" original-local-location="C:\Users\alumno\.ivy2\cache\org.scalatest\scalatest_2.11\ivy-3.0.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom"/>
+				<metadata-artifact status="no" details="" size="5213" time="0" location="C:\Users\alumno\.ivy2\cache\org.scalatest\scalatest_2.11\ivy-3.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom"/>
 				<caller organisation="template-proyecto-scala" name="template-proyecto-scala_2.11" conf="compile" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scalatest_2.11" type="bundle" ext="jar" status="successful" details="" size="10416563" time="54754" location="C:\Users\alumno\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-3.0.0.jar">
+					<artifact name="scalatest_2.11" type="bundle" ext="jar" status="no" details="" size="10416563" time="0" location="C:\Users\alumno\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-3.0.0.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -34,24 +34,24 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
-			<revision name="1.0.5" status="release" pubdate="20150725000253" resolver="jcenter" artresolver="jcenter" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+			<revision name="1.0.5" status="release" pubdate="20150725000253" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="2518" time="1079" location="C:\Users\alumno\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.5.xml" searched="true" original-local-location="C:\Users\alumno\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.5.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom"/>
+				<metadata-artifact status="no" details="" size="3048" time="0" location="C:\Users\alumno\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom"/>
 				<caller organisation="org.scalatest" name="scalatest_2.11" conf="default, compile, runtime, master" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="3.0.0"/>
 				<artifacts>
-					<artifact name="scala-xml_2.11" type="bundle" ext="jar" status="successful" details="" size="671138" time="3759" location="C:\Users\alumno\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar">
+					<artifact name="scala-xml_2.11" type="bundle" ext="jar" status="no" details="" size="671138" time="0" location="C:\Users\alumno\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scalactic" name="scalactic_2.11">
-			<revision name="3.0.0" status="release" pubdate="20160801110816" resolver="jcenter" artresolver="jcenter" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+			<revision name="3.0.0" status="release" pubdate="20160801110816" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
 				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2236" time="1025" location="C:\Users\alumno\.ivy2\cache\org.scalactic\scalactic_2.11\ivy-3.0.0.xml" searched="true" original-local-location="C:\Users\alumno\.ivy2\cache\org.scalactic\scalactic_2.11\ivy-3.0.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom"/>
+				<metadata-artifact status="no" details="" size="2875" time="0" location="C:\Users\alumno\.ivy2\cache\org.scalactic\scalactic_2.11\ivy-3.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom"/>
 				<caller organisation="org.scalatest" name="scalatest_2.11" conf="default, compile, runtime, master" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="3.0.0"/>
 				<artifacts>
-					<artifact name="scalactic_2.11" type="bundle" ext="jar" status="successful" details="" size="739283" time="5307" location="C:\Users\alumno\.ivy2\cache\org.scalactic\scalactic_2.11\bundles\scalactic_2.11-3.0.0.jar">
+					<artifact name="scalactic_2.11" type="bundle" ext="jar" status="no" details="" size="739283" time="0" location="C:\Users\alumno\.ivy2\cache\org.scalactic\scalactic_2.11\bundles\scalactic_2.11-3.0.0.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar"/>
 					</artifact>
 				</artifacts>

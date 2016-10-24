@@ -1,4 +1,4 @@
-[info] Updating {file:/F:/usuarios/alumno/Escritorio/Objetos%203/TP1/2016s2-grupo04-tp1/}root-2016s2-grupo04-tp1...
+[info] Updating {file:/C:/Users/alumno/TP1-ProgramacionConObjetos3-MixinsEnScala/}tp1-programacionconobjetos3-mixinsenscala...
 [debug] :: resolving dependencies :: template-proyecto-scala#template-proyecto-scala_2.11;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for template-proyecto-scala#template-proyecto-scala_2.11;1.0 [compile]
 [debug] == resolving dependencies template-proyecto-scala#template-proyecto-scala_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24dd785e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34e963a2
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -17,21 +17,8 @@
 [debug] == resolving dependencies template-proyecto-scala#template-proyecto-scala_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [compile->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;3.0.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;3.0.0 {compile=[default(compile)]}
-[info] Resolving org.scalatest#scalatest_2.11;3.0.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.11;3.0.0 {compile=[default(compile)]}
-[debug] 		tried C:\Users\alumno\.ivy2\local\org.scalatest\scalatest_2.11\3.0.0\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.scalatest#scalatest_2.11;3.0.0
-[debug] 		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom
-[debug] 	jcenter: found md file for org.scalatest#scalatest_2.11;3.0.0
-[debug] 		=> https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom (3.0.0)
-[debug] downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.pom
-[debug] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.pom(pom.original) (1271ms)
-[debug] 		tried C:\Users\alumno\.ivy2\local\org.scalatest\scalatest_2.11\3.0.0\bundles\scalatest_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar
-[debug] 	found org.scalatest#scalatest_2.11;3.0.0 in jcenter
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;3.0.0
+[debug] 	found org.scalatest#scalatest_2.11;3.0.0 in sbt-chain
 [debug] == resolving dependencies template-proyecto-scala#template-proyecto-scala_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [compile->runtime]
 [debug] == resolving dependencies template-proyecto-scala#template-proyecto-scala_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [compile->compile]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -41,21 +28,8 @@
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scalactic#scalactic_2.11;3.0.0 [compile->master(compile)]
 [info] Resolving org.scalactic#scalactic_2.11;3.0.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.11;3.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scalactic#scalactic_2.11;3.0.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalactic#scalactic_2.11;3.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\alumno\.ivy2\local\org.scalactic\scalactic_2.11\3.0.0\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.scalactic#scalactic_2.11;3.0.0
-[debug] 		tried https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom
-[debug] 	jcenter: found md file for org.scalactic#scalactic_2.11;3.0.0
-[debug] 		=> https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom (3.0.0)
-[debug] downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom
-[debug] 	[SUCCESSFUL ] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.pom(pom.original) (1025ms)
-[debug] 		tried C:\Users\alumno\.ivy2\local\org.scalactic\scalactic_2.11\3.0.0\bundles\scalactic_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar
-[debug] 	found org.scalactic#scalactic_2.11;3.0.0 in jcenter
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.11;3.0.0
+[debug] 	found org.scalactic#scalactic_2.11;3.0.0 in sbt-chain
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scalactic#scalactic_2.11;3.0.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
@@ -83,21 +57,8 @@
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\alumno\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.5
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom
-[debug] 	jcenter: found md file for org.scala-lang.modules#scala-xml_2.11;1.0.5
-[debug] 		=> https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom (1.0.5)
-[debug] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.pom(pom.original) (1079ms)
-[debug] 		tried C:\Users\alumno\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.5\bundles\scala-xml_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar
-[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in jcenter
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.5
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in sbt-chain
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -510,42 +471,27 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
-[debug] 		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar
-[info] downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scalatest/scalatest_2.11/3.0.0/scalatest_2.11-3.0.0.jar
-[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.jar(bundle) (54754ms)
-[debug] 		tried https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar
-[info] downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar
-[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.jar(bundle) (5307ms)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar
-[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(bundle) (3759ms)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 20557ms :: artifacts dl 63878ms
-[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 compile produced in F:\usuarios\alumno\Escritorio\Objetos 3\TP1\2016s2-grupo04-tp1\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-compile.xml
-[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 runtime produced in F:\usuarios\alumno\Escritorio\Objetos 3\TP1\2016s2-grupo04-tp1\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-runtime.xml
-[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 test produced in F:\usuarios\alumno\Escritorio\Objetos 3\TP1\2016s2-grupo04-tp1\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-test.xml
-[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 provided produced in F:\usuarios\alumno\Escritorio\Objetos 3\TP1\2016s2-grupo04-tp1\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-provided.xml
-[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 optional produced in F:\usuarios\alumno\Escritorio\Objetos 3\TP1\2016s2-grupo04-tp1\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-optional.xml
-[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 compile-internal produced in F:\usuarios\alumno\Escritorio\Objetos 3\TP1\2016s2-grupo04-tp1\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-compile-internal.xml
-[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 runtime-internal produced in F:\usuarios\alumno\Escritorio\Objetos 3\TP1\2016s2-grupo04-tp1\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-runtime-internal.xml
-[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 test-internal produced in F:\usuarios\alumno\Escritorio\Objetos 3\TP1\2016s2-grupo04-tp1\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-test-internal.xml
-[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 plugin produced in F:\usuarios\alumno\Escritorio\Objetos 3\TP1\2016s2-grupo04-tp1\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-plugin.xml
-[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 sources produced in F:\usuarios\alumno\Escritorio\Objetos 3\TP1\2016s2-grupo04-tp1\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-sources.xml
-[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 docs produced in F:\usuarios\alumno\Escritorio\Objetos 3\TP1\2016s2-grupo04-tp1\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-docs.xml
-[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 pom produced in F:\usuarios\alumno\Escritorio\Objetos 3\TP1\2016s2-grupo04-tp1\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-pom.xml
-[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 scala-tool produced in F:\usuarios\alumno\Escritorio\Objetos 3\TP1\2016s2-grupo04-tp1\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-scala-tool.xml
-[debug] 	resolve done (20557ms resolve - 63878ms download)
+[debug] :: resolution report :: resolve 2222ms :: artifacts dl 84ms
+[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 compile produced in C:\Users\alumno\TP1-ProgramacionConObjetos3-MixinsEnScala\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-compile.xml
+[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 runtime produced in C:\Users\alumno\TP1-ProgramacionConObjetos3-MixinsEnScala\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-runtime.xml
+[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 test produced in C:\Users\alumno\TP1-ProgramacionConObjetos3-MixinsEnScala\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-test.xml
+[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 provided produced in C:\Users\alumno\TP1-ProgramacionConObjetos3-MixinsEnScala\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-provided.xml
+[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 optional produced in C:\Users\alumno\TP1-ProgramacionConObjetos3-MixinsEnScala\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-optional.xml
+[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 compile-internal produced in C:\Users\alumno\TP1-ProgramacionConObjetos3-MixinsEnScala\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-compile-internal.xml
+[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 runtime-internal produced in C:\Users\alumno\TP1-ProgramacionConObjetos3-MixinsEnScala\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-runtime-internal.xml
+[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 test-internal produced in C:\Users\alumno\TP1-ProgramacionConObjetos3-MixinsEnScala\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-test-internal.xml
+[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 plugin produced in C:\Users\alumno\TP1-ProgramacionConObjetos3-MixinsEnScala\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-plugin.xml
+[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 sources produced in C:\Users\alumno\TP1-ProgramacionConObjetos3-MixinsEnScala\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-sources.xml
+[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 docs produced in C:\Users\alumno\TP1-ProgramacionConObjetos3-MixinsEnScala\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-docs.xml
+[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 pom produced in C:\Users\alumno\TP1-ProgramacionConObjetos3-MixinsEnScala\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-pom.xml
+[debug] 	report for template-proyecto-scala#template-proyecto-scala_2.11;1.0 scala-tool produced in C:\Users\alumno\TP1-ProgramacionConObjetos3-MixinsEnScala\target\resolution-cache\reports\template-proyecto-scala-template-proyecto-scala_2.11-scala-tool.xml
+[debug] 	resolve done (2222ms resolve - 84ms download)
 [info] Done updating.
